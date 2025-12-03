@@ -1,0 +1,40 @@
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+button {
+    background-color: green ;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image img{
+    max-width: 100%;
+    border-radius: 8px;
+    align-content: center;
+}
+
+@media (max-width: 786px)
+{
+    .container{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
